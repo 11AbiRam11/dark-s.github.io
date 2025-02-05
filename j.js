@@ -16,5 +16,4 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset();
   });
 }) 
-const data = require('./obj.json');
-console.log(data);
+
