@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Webtoon page loaded!");
+
 
   // Handle form submission
   const form = document.getElementById("contact-form");
@@ -15,12 +14,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // Clear form fields
     form.reset();
   });
-}) 
+   
 const s = document.getElementById('level');
-fetch('./obj.json')
+fetch('./JsonData/action-manhwa.json')
   .then(res => res.json())
   .then(data => {
-    data.best_action_manhwa.forEach(post => {
-      s.innerHTML = `${post[synopsis]}`;
+    data.forEach(post => {
+      console.log(post);
     });
   })

@@ -29,45 +29,54 @@
         const ro = document.getElementById('rom');
         const thr = document.getElementById('thr');
         const dr = document.getElementById('drama');
-        fetch('./obj.json')
-            .then(res => res.json())    
-            .then(data => {
-                data.best_action_manhwa.forEach(post => {
-                    ac.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
-                });
-            });
+        // fetch('./Jsondata/action-manhwa.json')
+        //     .then(res => res.json())    
+        //     .then(data => {
+        //         data.forEach(post => {
+        //             ac.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
+        //         });
+        //     });
 
-          fetch('./obj.json')
-            .then(res => res.json())
-            .then(data => {
-                data.best_romance_manhwa.forEach(post => {
-                    ro.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
-                });
-            });
+        //   fetch('./Jsondata/romance_manhwa.json')
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         data.forEach(post => {
+        //             ro.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
+        //         });
+        //     });
         
-          fetch('./obj.json')
-            .then(res => res.json())
-            .then(data => {
-                data.best_thriller_manhwa.forEach(post => {
-                    thr.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
-                });
-            });
+        //   fetch('./Jsondata/thriller_manhwa.json')
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         data.forEach(post => {
+        //             thr.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
+        //         });
+        //     });
 
-          fetch('./obj.json')
-            .then(res => res.json())
-            .then(data => {
-                data.best_drama_manhwa.forEach(post => {
-                    dr.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
-                });
-            });
-
-        fetch('./obj.json')
+        //   fetch('./Jsondata/drama_manhwa.json')
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         data.forEach(post => {
+        //             dr.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
+        //         });
+        //     });
+        let title = "";
+        let author = "";
+        let rating = "";
+        fetch('./Jsondata/action-manhwa.json')
         .then(res => res.json())
         .then(data => {
-            for(const k in data.best_action_manhwa){
-                console.log(`${k},${data.best_action_manhwa[k]}`);
+            for(let i=0;i<=10;i++){
+
+                const d = data.find(item => item.id===i)
+                    if(d){
+                        title = `${d.title}`;
+                        author = `${d.author}`;
+                        rating = `${d.rating}`;
+                    }
+                    console.log(" title:",title," author:",author," rating:",rating);
             }
-        })
+        });
     </script>
 </body>
 </html>
