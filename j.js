@@ -15,4 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Clear form fields
     form.reset();
   });
-});
+}) 
+const data = require('./obj.json');
+console.log(data);
