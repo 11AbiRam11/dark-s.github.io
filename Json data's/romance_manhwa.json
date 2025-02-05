@@ -1,0 +1,122 @@
+ [
+    {
+      "id": 1,
+      "title": "True Beauty",
+      "author": "Yaongyi",
+      "artist": "Yaongyi",
+      "status": "Ongoing",
+      "chapters": 230,
+      "rating": 4.5,
+      "synopsis": "Jugyeong Lim masters makeup to transform her appearance and navigate high school life, but struggles to keep her true self hidden.",
+      "release_date": "2018-04-02",
+      "platform": "Naver Webtoon"
+    },
+    {
+      "id": 2,
+      "title": "Who Made Me a Princess",
+      "author": "Plutus",
+      "artist": "Spoon",
+      "status": "Completed",
+      "chapters": 125,
+      "rating": 4.8,
+      "synopsis": "A girl is reincarnated as a princess in a tragic novel and must change her fate to avoid her destined death.",
+      "release_date": "2017-12-20",
+      "platform": "KakaoPage"
+    },
+    {
+      "id": 3,
+      "title": "Light and Shadow",
+      "author": "Ryu Hyang",
+      "artist": "Hee Won",
+      "status": "Completed",
+      "chapters": 103,
+      "rating": 4.6,
+      "synopsis": "A maid marries a duke while hiding her secret identity as royalty, leading to unexpected twists and romance.",
+      "release_date": "2016-09-05",
+      "platform": "KakaoPage"
+    },
+    {
+      "id": 4,
+      "title": "Let's Play",
+      "author": "Montpellier",
+      "artist": "Montpellier",
+      "status": "Ongoing",
+      "chapters": 110,
+      "rating": 4.7,
+      "synopsis": "A game developer struggles with social anxiety and unexpected romantic interests as she navigates the gaming industry.",
+      "release_date": "2018-01-09",
+      "platform": "Webtoon"
+    },
+    {
+      "id": 5,
+      "title": "A Good Day to be a Dog",
+      "author": "Lee Hey",
+      "artist": "Lee Hey",
+      "status": "Completed",
+      "chapters": 125,
+      "rating": 4.7,
+      "synopsis": "After a kiss from her true love, a woman cursed to turn into a dog every night must find her happiness.",
+      "release_date": "2017-06-15",
+      "platform": "Naver Webtoon"
+    },
+    {
+      "id": 6,
+      "title": "Something About Us",
+      "author": "Lee Yun-ji",
+      "artist": "Lee Yun-ji",
+      "status": "Completed",
+      "chapters": 90,
+      "rating": 4.7,
+      "synopsis": "Two close friends slowly realize their feelings for each other, but face challenges in moving from friendship to romance.",
+      "release_date": "2014-06-18",
+      "platform": "Naver Webtoon"
+    },
+    {
+      "id": 7,
+      "title": "My Dear Cold-Blooded King",
+      "author": "lifelight",
+      "artist": "lifelight",
+      "status": "Completed",
+      "chapters": 160,
+      "rating": 4.5,
+      "synopsis": "A common girl is caught in a web of lies and schemes when she meets a mysterious king known for his cold heart.",
+      "release_date": "2017-03-05",
+      "platform": "Line Webtoon"
+    },
+    {
+      "id": 8,
+      "title": "Siren's Lament",
+      "author": "Instantmiso",
+      "artist": "Instantmiso",
+      "status": "Ongoing",
+      "chapters": 170,
+      "rating": 4.8,
+      "synopsis": "A girl finds herself in a love triangle between two sirens and learns about love, sacrifice, and the secrets of the ocean.",
+      "release_date": "2017-10-02",
+      "platform": "Webtoon"
+    },
+    {
+      "id": 9,
+      "title": "Age Matters",
+      "author": "Enjelicious",
+      "artist": "Enjelicious",
+      "status": "Ongoing",
+      "chapters": 80,
+      "rating": 4.6,
+      "synopsis": "A 29-year-old woman and a 21-year-old CEO enter a contract relationship that leads to unexpected romantic feelings.",
+      "release_date": "2019-12-11",
+      "platform": "Tapas"
+    },
+    {
+      "id": 10,
+      "title": "I Love Yoo",
+      "author": "Quimchee",
+      "artist": "Quimchee",
+      "status": "Ongoing",
+      "chapters": 140,
+      "rating": 4.5,
+      "synopsis": "Shin-Ae, a girl who avoids love, finds herself in complicated relationships with two brothers who have very different personalities.",
+      "release_date": "2018-07-16",
+      "platform": "Webtoon"
+    }
+  ]

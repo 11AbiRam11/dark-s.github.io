@@ -16,4 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset();
   });
 }) 
-
+const s = document.getElementById('level');
+fetch('./obj.json')
+  .then(res => res.json())
+  .then(data => {
+    data.best_action_manhwa.forEach(post => {
+      s.innerHTML = `${post[synopsis]}`;
+    });
+  })

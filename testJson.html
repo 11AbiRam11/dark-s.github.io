@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>list of best action manhwa</h3>
+    <ol id="action">
+    </ol>
+
+
+    <h3>list of best romance mahnwa</h3>
+    <ol id="rom">
+    </ol>
+
+
+    <h3>list of best thriller manhwa</h3>
+    <ol id="thr">
+    </ol>
+
+
+    <h3>list of best drama manhwa</h3>
+    <ol id="drama">
+    </ol>
+
+    <script>
+        const ac = document.getElementById('action');
+        const ro = document.getElementById('rom');
+        const thr = document.getElementById('thr');
+        const dr = document.getElementById('drama');
+        fetch('./obj.json')
+            .then(res => res.json())    
+            .then(data => {
+                data.best_action_manhwa.forEach(post => {
+                    ac.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
+                });
+            });
+
+          fetch('./obj.json')
+            .then(res => res.json())
+            .then(data => {
+                data.best_romance_manhwa.forEach(post => {
+                    ro.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
+                });
+            });
+        
+          fetch('./obj.json')
+            .then(res => res.json())
+            .then(data => {
+                data.best_thriller_manhwa.forEach(post => {
+                    thr.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
+                });
+            });
+
+          fetch('./obj.json')
+            .then(res => res.json())
+            .then(data => {
+                data.best_drama_manhwa.forEach(post => {
+                    dr.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`);
+                });
+            });
+
+        fetch('./obj.json')
+        .then(res => res.json())
+        .then(data => {
+            for(const k in data.best_action_manhwa){
+                console.log(`${k},${data.best_action_manhwa[k]}`);
+            }
+        })
+    </script>
+</body>
+</html>
