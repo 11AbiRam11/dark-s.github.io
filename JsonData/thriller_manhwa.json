@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "title": "Bastard",
+      "author": "Carnby Kim",
+      "artist": "Youngchan Hwang",
+      "status": "Completed",
+      "chapters": 93,
+      "rating": 4.9,
+      "synopsis": "A boy lives with his serial killer father and must decide whether to protect his new friend or betray his father.",
+      "release_date": "2014-11-03",
+      "platform": "Naver Webtoon"
+    },
+    {
+      "id": 2,
+      "title": "Sweet Home",
+      "author": "Carnby Kim",
+      "artist": "Youngchan Hwang",
+      "status": "Completed",
+      "chapters": 141,
+      "rating": 4.8,
+      "synopsis": "Cha Hyun-soo and the residents of an apartment building try to survive against terrifying monsters in a post-apocalyptic world.",
+      "release_date": "2017-10-12",
+      "platform": "Naver Webtoon"
+    },
+    {
+      "id": 3,
+      "title": "Killing Stalking",
+      "author": "Koogi",
+      "artist": "Koogi",
+      "status": "Completed",
+      "chapters": 67,
+      "rating": 4.6,
+      "synopsis": "A disturbing story of obsession and violence as a boy becomes entangled in the life of a murderer he idolizes.",
+      "release_date": "2016-11-20",
+      "platform": "Lezhin Comics"
+    },
+    {
+      "id": 4,
+      "title": "DICE: The Cube that Changes Everything",
+      "author": "Hyunseok Yun",
+      "artist": "Hyunseok Yun",
+      "status": "Ongoing",
+      "chapters": 380,
+      "rating": 4.7,
+      "synopsis": "A boy stumbles upon a dice that can change his life in any way he desires, but every roll comes with a price.",
+      "release_date": "2013-05-09",
+      "platform": "Naver Webtoon"
+    },
+    {
+      "id": 5,
+      "title": "The Village: Achiara's Secret",
+      "author": "Shin Young-woo",
+      "artist": "Kim Seon-young",
+      "status": "Completed",
+      "chapters": 60,
+      "rating": 4.5,
+      "synopsis": "A woman moves to a quiet village, only to discover dark secrets and a series of murders that unravel the community.",
+      "release_date": "2015-10-03",
+      "platform": "Lezhin Comics"
+    },
+    {
+      "id": 6,
+      "title": "Mercilessness",
+      "author": "Sae Hwang",
+      "artist": "Sae Hwang",
+      "status": "Ongoing",
+      "chapters": 130,
+      "rating": 4.8,
+      "synopsis": "A psychological thriller that delves into the mind of a woman seeking revenge on those who wronged her.",
+      "release_date": "2020-08-10",
+      "platform": "Webtoon"
+    },
+    {
+      "id": 7,
+      "title": "Hunt: Showdown",
+      "author": "Ryuji",
+      "artist": "Kyo Shun",
+      "status": "Ongoing",
+      "chapters": 80,
+      "rating": 4.6,
+      "synopsis": "In a dystopian world, hunters chase down terrifying creatures while facing betrayal and deception from each other.",
+      "release_date": "2021-02-15",
+      "platform": "Webtoon"
+    },
+    {
+      "id": 8,
+      "title": "The Last Human",
+      "author": "Lian Yu",
+      "artist": "Lian Yu",
+      "status": "Ongoing",
+      "chapters": 100,
+      "rating": 4.7,
+      "synopsis": "A man wakes up in a post-apocalyptic world where he is the last human, confronting monsters and hidden dangers.",
+      "release_date": "2018-06-24",
+      "platform": "KakaoPage"
+    },
+    {
+      "id": 9,
+      "title": "Gosu",
+      "author": "Ryu Ki-Woon",
+      "artist": "Moon Jung-Hoo",
+      "status": "Completed",
+      "chapters": 132,
+      "rating": 4.7,
+      "synopsis": "A martial artist seeks revenge against those who betrayed his master, leading to a tale of blood and vengeance.",
+      "release_date": "2014-12-01",
+      "platform": "KakaoPage"
+    },
+    {
+      "id": 10,
+      "title": "Killer's Class",
+      "author": "Han Dong-Woo",
+      "artist": "Han Dong-Woo",
+      "status": "Ongoing",
+      "chapters": 90,
+      "rating": 4.5,
+      "synopsis": "A school for assassins trains students in the art of killing, but betrayal and danger lurk around every corner.",
+      "release_date": "2019-05-12",
+      "platform": "Webtoon"
+    }
+  ]
